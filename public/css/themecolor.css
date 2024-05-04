@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #000000;
+  color: #FFF;
+}
+
+header {
+  background-color: #212121;
+  color: #FFF;
+}
+
+#wrap,#box{
+  background-color: #303030;
+}
+
+a {
+  color: #FFF;
+}
+
+.menu > li > * {
+  transition: .1s;
+}
+
+.menu > li > :hover {
+  background-color: rgba(204, 204, 204, 0.125);
+}
+
+.menu > li > :active {
+  background-color: rgba(204, 204, 204, 0.25);
+}
+
+select,input{
+  background-color: #303030;
+  color: #FFF;
+}
